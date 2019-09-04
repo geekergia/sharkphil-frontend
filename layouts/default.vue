@@ -15,7 +15,7 @@
       </span>
     </v-system-bar>
     <nuxt />
-    <v-footer dark absolute app>
+    <v-footer dark >
       <span>&copy; Shark Philippines {{ new Date().getFullYear() }}</span>
       <v-spacer />
       <span>

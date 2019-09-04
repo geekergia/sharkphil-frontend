@@ -19,6 +19,8 @@
       <CarCarousel />
       <StartCustomization />
       <OtherSharkProducts />
+      <Newsletter />
+      <Footer />
     </v-flex>
   </v-layout>
 </template>
@@ -27,11 +29,15 @@
 import CarCarousel from "~/components/CarCarousel";
 import StartCustomization from "~/components/StartCustomization";
 import OtherSharkProducts from "~/components/OtherSharkProducts";
+import Newsletter from "~/components/Newsletter";
+import Footer from "~/components/Footer";
 export default {
   components: {
     CarCarousel,
     StartCustomization,
-    OtherSharkProducts
+    OtherSharkProducts,
+    Newsletter,
+    Footer
   }
 };
 </script>
