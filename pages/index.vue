@@ -1,21 +1,7 @@
 <template>
   <v-layout column>
     <v-flex>
-      <v-app-bar dark  color="black">
-        
-        <h1>LOGO HERE</h1>
-
-        <v-toolbar-title>Car Accessories</v-toolbar-title>
-
-        <v-spacer />
-        <v-toolbar-items>
-          <v-btn text>Products</v-btn>
-          <v-btn text>Customize</v-btn>
-          <v-btn color="orange darken-2">
-            <v-icon>mdi-car-back</v-icon>
-          </v-btn>
-        </v-toolbar-items>
-      </v-app-bar>
+      <Toolbar />
       <CarCarousel />
       <StartCustomization />
       <OtherSharkProducts />
@@ -26,6 +12,7 @@
 </template>
 
 <script>
+import Toolbar from "~/components/Toolbar";
 import CarCarousel from "~/components/CarCarousel";
 import StartCustomization from "~/components/StartCustomization";
 import OtherSharkProducts from "~/components/OtherSharkProducts";
@@ -33,6 +20,7 @@ import Newsletter from "~/components/Newsletter";
 import Footer from "~/components/Footer";
 export default {
   components: {
+    Toolbar,
     CarCarousel,
     StartCustomization,
     OtherSharkProducts,

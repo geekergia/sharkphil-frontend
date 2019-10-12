@@ -2,7 +2,9 @@
   <v-footer padless class="white">
     <v-col cols="12">
       <v-row align="top" justify="space-between" class="black--text">
-        <v-card class="ma-3 pa-6" flat>Logo Here</v-card>
+        <v-card class="ma-3 pa-6" flat>
+          <v-img :src='require("~/assets/images/footer_sharklogo.png")' style="margin-top: 20px; margin-left: 15px"></v-img>
+        </v-card>
         <v-card class="ma-3 pa-6" flat>
           <v-card-title>Products</v-card-title>
           <v-card-text>

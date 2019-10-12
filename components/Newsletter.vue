@@ -3,9 +3,9 @@
     <v-row>
       <v-col cols="12">
         <v-row align="center" justify="center" class="black">
-          <v-flex sm6 md3 style="color: white"><span style="color: orange">Get updated </span> with our latest products & promos</v-flex>
+          <v-flex md4 style="color: white; font-size:20px"><span style="color: #FF921E">Get updated </span> with our latest products & promos</v-flex>
           <v-col cols="12" sm="6" md="3">
-            <v-text-field placeholder="your email here" solo v-model="email"></v-text-field>
+            <v-text-field placeholder="your email here" solo v-model="email" style="margin-top: 25px"></v-text-field>
           </v-col>
         </v-row>
       </v-col>
