@@ -6,12 +6,14 @@
             Vestibulum vel justo at tellus iaculis ultrices et nec ex. Aenean id efficitur lacus. </div>
           <v-hover v-slot:default="{ hover }">
             <div class="learn-more-container pt-5">
-              <v-img :src='require("~/assets/images/learn-more-active.png")' to="/" max-width="200" max-height="200" >
-                <div class="learn-more text-center font-italic font-weight-bold">Learn more</div>
+              <v-img :src='require("~/assets/images/learn-more-active.png")' max-width="200" max-height="200" >
+                  <div v-if="hover" class="hover-reveal">
+                    <a href="#learnmore">
+                      <v-img :src='require("~/assets/images/learn-more-hover.png")' max-width="200" max-height="200" />
+                    </a>
+                  </div>
+                  <div class="learn-more text-center font-italic font-weight-bold">Learn more</div>
               </v-img>
-              <div v-if="hover" class="hover-reveal">
-                <v-img :src='require("~/assets/images/learn-more-hover.png")' to="/" max-width="200" max-height="200" />
-              </div>
             </div>
           </v-hover>
   
@@ -39,7 +41,8 @@ export default {
         {
           src: "https://cdn.vuetifyjs.com/images/carousel/planet.jpg"
         }
-      ]
+      ], 
+      img_hover: '"~/assets/images/learn-more-hover.png"',
     };
   }
 };
@@ -74,6 +77,7 @@ export default {
 
 .hover-reveal{
   position: absolute;
+  margin-bottom: 300px;
 }
 
 </style>

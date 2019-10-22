@@ -6,7 +6,7 @@
     <v-layout row fill-height>
       <v-flex class="title-row">
         <span class="shark-title"> Other Shark Products </span>
-        <v-btn text small class="explore-btn" color="orange" to="/" >Explore all →</v-btn>
+        <v-btn text small dense class="explore-btn" style="color: #FF921E" to="/" >Explore all →</v-btn>
       </v-flex>
     </v-layout> 
     <v-slide-group

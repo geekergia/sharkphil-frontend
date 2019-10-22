@@ -4,7 +4,7 @@
       <span class="white--text">
         <v-icon color="orange darken-2">mdi-phone</v-icon>CALL (02) 372 24 64
       </span>&nbsp;
-      <span class="grey--text">Mon-Sat 09:00 - 18:00 PHT</span>
+      <span class="grey--text" style="margin-left: 5px">Mon-Sat 09:00 - 18:00 PHT</span>
       <v-spacer />
       <span class="white--text">
         <v-icon color="orange darken-2">mdi-check-circle</v-icon>Premium Car Accessories Quality Approved By Car Makers And Dealers

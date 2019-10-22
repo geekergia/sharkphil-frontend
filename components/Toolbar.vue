@@ -7,7 +7,7 @@
         <v-toolbar-items>
             <div class="bar">
                 <input class="search-bar" type="text" name="searchbar" placeholder="Search Items">
-                <input class="search-btn" type="image" :src='require("~/assets/icons/search_inactive.png")' width="20px" height="20px" alt="">
+                <!-- <v-img :src='require("~/assets/icons/search_inactive.png")' width="20px" height="20px" /> -->
             </div>
             <v-btn to="/products" text>Products</v-btn>
             <v-btn text>Customize</v-btn>
